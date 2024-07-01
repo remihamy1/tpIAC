@@ -2,10 +2,11 @@
 
 ## Objectif
 Créer une infrastructure cloud sur GCP pour héberger une application web multi-tier.
-2 instance web, accessible en http/https
-1 instance de base de données avec un user admin par défaut
-1 load balancer pour exposer le traffic sortant des serveur web
-Les règles de firewall qui vont bien
+##T ODO 
+1.  2 instance web, accessible en http/https
+2. 1 instance de base de données avec un user admin par défaut
+3. 1 load balancer pour exposer le traffic sortant des serveur web
+4. Les règles de firewall qui vont bien
 
 ## Description du Projet
 Vous allez déployer une application web multi-tier en utilisant Terraform. L'infrastructure comprendra les éléments suivants :
