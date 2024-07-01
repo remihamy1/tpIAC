@@ -15,9 +15,11 @@ Un sous-réseau pour les instances du serveur web.
 Plusieurs instances pour le tiers de l'application (par exemple, des serveurs d'application).
 Une instance ou plusieurs pour le tiers de la base de données, si nécessaire.
 Des instances pour le tiers du serveur web.
-Règles de pare-feu :
+### Règles de pare-feu :
 Autoriser le trafic SSH, HTTP et HTTPS.
 Règles spécifiques pour les communications internes entre les sous-réseaux.
+### Load balancer: 
+Créez un loadbalancer pour exposer votre traffic à l'exterieur
 ### Variables :
 Nombre d'instances pour chaque tier.
 Type de machine à utiliser pour chaque tier.
