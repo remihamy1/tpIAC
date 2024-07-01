@@ -36,3 +36,6 @@ Sous-réseaux : Diviser le VPC en sous-réseaux distincts pour chaque tier de l'
 Utiliser des boucles pour créer dynamiquement plusieurs instances pour le tiers de l'application et du serveur web.
 Utiliser des conditions pour décider de la création d'instances de base de données.
 Règles de pare-feu : Définir des règles pour autoriser les connexions SSH (port 22), HTTP (port 80) et HTTPS (port 443).
+
+### Output: 
+Pouvoir voir les choses qui ont été créées grâce à un output.tf
